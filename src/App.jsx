@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router basename={window.location.pathname || ""}>
+      <Router>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
