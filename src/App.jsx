@@ -16,10 +16,10 @@ function App() {
 
   return (
     <div className="App">
-      <Router basename="/responsive-page">
+      <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
         </Routes>
       </Router>
     </div>
