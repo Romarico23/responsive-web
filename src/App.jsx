@@ -15,10 +15,10 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
+      <Router basename="/">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
         </Routes>
       </Router>
     </div>
